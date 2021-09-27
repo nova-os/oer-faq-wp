@@ -1,0 +1,24 @@
+{
+  "name": "oer-faq-child-theme",
+  "version": "1.0.0",
+  "description": "=== bootScore 5 Child Theme ===",
+  "main": "index.js",
+  "scripts": {
+    "development": "mix",
+    "watch": "mix watch",
+    "watch-poll": "mix watch -- --watch-options-poll=1000",
+    "hot": "mix watch --hot",
+    "production": "mix --production",
+    "prod": "npm run production"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap": "^5.1.0",
+    "cross-env": "^7.0.3",
+    "laravel-mix": "^6.0.27",
+    "resolve-url-loader": "^4.0.0",
+    "sass": "^1.37.5",
+    "sass-loader": "^12.1.0"
+  }
+}

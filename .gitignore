@@ -1,0 +1,55 @@
+.idea
+
+# Application
+src/web/app/plugins/*
+!src/web/app/plugins/.gitkeep
+src/web/app/mu-plugins/*/
+!src/web/app/mu-plugins/nvsecure
+!src/web/app/mu-plugins/rssunssl
+src/web/app/upgrade
+src/web/app/uploads/*
+!src/web/app/uploads/.gitkeep
+!src/web/app/uploads/alm_templates/
+src/web/app/cache/*
+!src/web/app/cache/.gitkeep
+
+# nova Standard
+src/web/app/themes/oer-faq-child-theme/css/custom.css
+
+# WordPress
+src/web/app/debug.log
+src/web/wp
+
+# WP-CLI
+db-sync
+sql-dump-*.sql
+wp-cli.local.yml
+
+# Dotenv
+.env
+.env.*
+!.env.example
+!.env.template
+
+# Vendor (e.g. Composer)
+src/vendor/*
+!src/vendor/.gitkeep
+
+# Database volume
+.docker/data
+
+# Node Package Manager
+node_modules
+
+# Certs
+certs/
+
+# Logs
+logs/
+
+# Vagrant
+.vagrant
+
+# Custom
+.DS_Store
+bitbucket-pipelines.yml
